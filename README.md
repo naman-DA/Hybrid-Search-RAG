@@ -40,16 +40,16 @@ This improves both accuracy + relevance compared to using either method alone.
 
 #### How It Works
 
-- Add Documents
+- Add Documents :-
 Enter multiple lines of text
 Each line is treated as a separate document
 
-- Indexing
+- Indexing :-
 Dense embeddings generated using HuggingFace
 BM25 encoder trained for sparse retrieval
 Data stored in Pinecone index
 
-- Querying
+- Querying :-
 User enters a search query
 Hybrid retriever combines:
 Semantic similarity
