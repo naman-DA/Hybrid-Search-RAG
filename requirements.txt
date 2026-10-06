@@ -1,11 +1,9 @@
 streamlit
 python-dotenv
-langchain
-langchain-community
-langchain-core
-langchain-huggingface
-pinecone
+pinecone<7
 pinecone-text
+langchain-community
+langchain-huggingface
 sentence-transformers
-scikit-learn
-pinecone-notebooks
+torch
+torchvision
